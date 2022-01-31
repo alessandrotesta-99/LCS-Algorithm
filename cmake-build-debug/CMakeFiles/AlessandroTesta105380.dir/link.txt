@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/AlessandroTesta105380.dir/main.c.o -o AlessandroTesta105380.exe -Wl,--out-implib,libAlessandroTesta105380.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

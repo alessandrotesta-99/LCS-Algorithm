@@ -1,0 +1,3 @@
+/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/CMakeFiles/AlessandroTesta105380.dir
