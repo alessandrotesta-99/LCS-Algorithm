@@ -9,10 +9,10 @@ int main(int argc, char **argv) {
             write_file(argv[3], output);
             free(output);
         }
-//    char *output = printLcs(
-//            read_file("C:\\Users\\alessandro\\Desktop\\stringa1.txt"),
-//            read_file("C:\\Users\\alessandro\\Desktop\\stringa2.txt"));
- // write_file("C:\\Users\\alessandro\\Desktop\\output.txt", output);
+        else{
+            printf("Incorrect number of arguments!");
+            exit(1);
+        }
 
   return 0;
 }
