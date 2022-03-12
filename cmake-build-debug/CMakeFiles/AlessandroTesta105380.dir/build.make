@@ -89,17 +89,62 @@ CMakeFiles/AlessandroTesta105380.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlessandroTesta105380.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/main.c -o CMakeFiles/AlessandroTesta105380.dir/main.c.s
 
+CMakeFiles/AlessandroTesta105380.dir/FileIO.c.o: CMakeFiles/AlessandroTesta105380.dir/flags.make
+CMakeFiles/AlessandroTesta105380.dir/FileIO.c.o: ../FileIO.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AlessandroTesta105380.dir/FileIO.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AlessandroTesta105380.dir/FileIO.c.o -c /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/FileIO.c
+
+CMakeFiles/AlessandroTesta105380.dir/FileIO.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AlessandroTesta105380.dir/FileIO.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/FileIO.c > CMakeFiles/AlessandroTesta105380.dir/FileIO.c.i
+
+CMakeFiles/AlessandroTesta105380.dir/FileIO.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlessandroTesta105380.dir/FileIO.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/FileIO.c -o CMakeFiles/AlessandroTesta105380.dir/FileIO.c.s
+
+CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.o: CMakeFiles/AlessandroTesta105380.dir/flags.make
+CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.o: ../MatrixLcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.o -c /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/MatrixLcs.c
+
+CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/MatrixLcs.c > CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.i
+
+CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/MatrixLcs.c -o CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.s
+
+CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.o: CMakeFiles/AlessandroTesta105380.dir/flags.make
+CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.o: ../LCSAlgorithm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.o -c /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/LCSAlgorithm.c
+
+CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/LCSAlgorithm.c > CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.i
+
+CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/LCSAlgorithm.c -o CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.s
+
 # Object files for target AlessandroTesta105380
 AlessandroTesta105380_OBJECTS = \
-"CMakeFiles/AlessandroTesta105380.dir/main.c.o"
+"CMakeFiles/AlessandroTesta105380.dir/main.c.o" \
+"CMakeFiles/AlessandroTesta105380.dir/FileIO.c.o" \
+"CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.o" \
+"CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.o"
 
 # External object files for target AlessandroTesta105380
 AlessandroTesta105380_EXTERNAL_OBJECTS =
 
 AlessandroTesta105380.exe: CMakeFiles/AlessandroTesta105380.dir/main.c.o
+AlessandroTesta105380.exe: CMakeFiles/AlessandroTesta105380.dir/FileIO.c.o
+AlessandroTesta105380.exe: CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.o
+AlessandroTesta105380.exe: CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.o
 AlessandroTesta105380.exe: CMakeFiles/AlessandroTesta105380.dir/build.make
 AlessandroTesta105380.exe: CMakeFiles/AlessandroTesta105380.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable AlessandroTesta105380.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable AlessandroTesta105380.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AlessandroTesta105380.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

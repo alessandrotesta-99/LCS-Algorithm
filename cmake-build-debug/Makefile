@@ -142,6 +142,87 @@ AlessandroTesta105380/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/build
 .PHONY : AlessandroTesta105380/fast
 
+FileIO.o: FileIO.c.o
+
+.PHONY : FileIO.o
+
+# target to build an object file
+FileIO.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/FileIO.c.o
+.PHONY : FileIO.c.o
+
+FileIO.i: FileIO.c.i
+
+.PHONY : FileIO.i
+
+# target to preprocess a source file
+FileIO.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/FileIO.c.i
+.PHONY : FileIO.c.i
+
+FileIO.s: FileIO.c.s
+
+.PHONY : FileIO.s
+
+# target to generate assembly for a file
+FileIO.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/FileIO.c.s
+.PHONY : FileIO.c.s
+
+LCSAlgorithm.o: LCSAlgorithm.c.o
+
+.PHONY : LCSAlgorithm.o
+
+# target to build an object file
+LCSAlgorithm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.o
+.PHONY : LCSAlgorithm.c.o
+
+LCSAlgorithm.i: LCSAlgorithm.c.i
+
+.PHONY : LCSAlgorithm.i
+
+# target to preprocess a source file
+LCSAlgorithm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.i
+.PHONY : LCSAlgorithm.c.i
+
+LCSAlgorithm.s: LCSAlgorithm.c.s
+
+.PHONY : LCSAlgorithm.s
+
+# target to generate assembly for a file
+LCSAlgorithm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.s
+.PHONY : LCSAlgorithm.c.s
+
+MatrixLcs.o: MatrixLcs.c.o
+
+.PHONY : MatrixLcs.o
+
+# target to build an object file
+MatrixLcs.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.o
+.PHONY : MatrixLcs.c.o
+
+MatrixLcs.i: MatrixLcs.c.i
+
+.PHONY : MatrixLcs.i
+
+# target to preprocess a source file
+MatrixLcs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.i
+.PHONY : MatrixLcs.c.i
+
+MatrixLcs.s: MatrixLcs.c.s
+
+.PHONY : MatrixLcs.s
+
+# target to generate assembly for a file
+MatrixLcs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.s
+.PHONY : MatrixLcs.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -178,6 +259,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AlessandroTesta105380"
+	@echo "... FileIO.o"
+	@echo "... FileIO.i"
+	@echo "... FileIO.s"
+	@echo "... LCSAlgorithm.o"
+	@echo "... LCSAlgorithm.i"
+	@echo "... LCSAlgorithm.s"
+	@echo "... MatrixLcs.o"
+	@echo "... MatrixLcs.i"
+	@echo "... MatrixLcs.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

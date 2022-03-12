@@ -74,6 +74,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/FileIO.c">
+			<Option target="AlessandroTesta105380"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/FileIO.h">
+			<Option target="AlessandroTesta105380"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/LCSAlgorithm.c">
+			<Option target="AlessandroTesta105380"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/LCSAlgorithm.h">
+			<Option target="AlessandroTesta105380"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/MatrixLcs.c">
+			<Option target="AlessandroTesta105380"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/MatrixLcs.h">
+			<Option target="AlessandroTesta105380"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/main.c">
 			<Option target="AlessandroTesta105380"/>
 		</Unit>
