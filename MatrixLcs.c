@@ -1,6 +1,4 @@
-//
-// Created by alessandro on 09/03/2022.
-//
+
 #include "MatrixLcs.h"
 #include <stdlib.h>
 

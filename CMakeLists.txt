@@ -3,4 +3,4 @@ project(AlessandroTesta105380 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(AlessandroTesta105380 main.c MatrixLcs.h FileIO.h LCSAlgorithm.h FileIO.c MatrixLcs.c LCSAlgorithm.c)
+add_executable(extractlcs main.c MatrixLcs.h FileIO.h LCSAlgorithm.h FileIO.c MatrixLcs.c LCSAlgorithm.c)

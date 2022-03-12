@@ -1,9 +1,5 @@
-//
-// Created by alessandro on 09/03/2022.
-//
 
 #include <string.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include "LCSAlgorithm.h"
 

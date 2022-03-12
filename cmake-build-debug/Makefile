@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProject
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/alessandro/AppData/Local/JetBrains/CLion2021.1/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/cygdrive/c/Users/alessandro/AppData/Local/JetBrains/CLion2021.1/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AlessandroTesta105380
+# Target rules for targets named extractlcs
 
 # Build rule for target.
-AlessandroTesta105380: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AlessandroTesta105380
-.PHONY : AlessandroTesta105380
+extractlcs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extractlcs
+.PHONY : extractlcs
 
 # fast build rule for target.
-AlessandroTesta105380/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/build
-.PHONY : AlessandroTesta105380/fast
+extractlcs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/build
+.PHONY : extractlcs/fast
 
 FileIO.o: FileIO.c.o
 
@@ -148,7 +148,7 @@ FileIO.o: FileIO.c.o
 
 # target to build an object file
 FileIO.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/FileIO.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/FileIO.c.o
 .PHONY : FileIO.c.o
 
 FileIO.i: FileIO.c.i
@@ -157,7 +157,7 @@ FileIO.i: FileIO.c.i
 
 # target to preprocess a source file
 FileIO.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/FileIO.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/FileIO.c.i
 .PHONY : FileIO.c.i
 
 FileIO.s: FileIO.c.s
@@ -166,7 +166,7 @@ FileIO.s: FileIO.c.s
 
 # target to generate assembly for a file
 FileIO.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/FileIO.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/FileIO.c.s
 .PHONY : FileIO.c.s
 
 LCSAlgorithm.o: LCSAlgorithm.c.o
@@ -175,7 +175,7 @@ LCSAlgorithm.o: LCSAlgorithm.c.o
 
 # target to build an object file
 LCSAlgorithm.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/LCSAlgorithm.c.o
 .PHONY : LCSAlgorithm.c.o
 
 LCSAlgorithm.i: LCSAlgorithm.c.i
@@ -184,7 +184,7 @@ LCSAlgorithm.i: LCSAlgorithm.c.i
 
 # target to preprocess a source file
 LCSAlgorithm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/LCSAlgorithm.c.i
 .PHONY : LCSAlgorithm.c.i
 
 LCSAlgorithm.s: LCSAlgorithm.c.s
@@ -193,7 +193,7 @@ LCSAlgorithm.s: LCSAlgorithm.c.s
 
 # target to generate assembly for a file
 LCSAlgorithm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/LCSAlgorithm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/LCSAlgorithm.c.s
 .PHONY : LCSAlgorithm.c.s
 
 MatrixLcs.o: MatrixLcs.c.o
@@ -202,7 +202,7 @@ MatrixLcs.o: MatrixLcs.c.o
 
 # target to build an object file
 MatrixLcs.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/MatrixLcs.c.o
 .PHONY : MatrixLcs.c.o
 
 MatrixLcs.i: MatrixLcs.c.i
@@ -211,7 +211,7 @@ MatrixLcs.i: MatrixLcs.c.i
 
 # target to preprocess a source file
 MatrixLcs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/MatrixLcs.c.i
 .PHONY : MatrixLcs.c.i
 
 MatrixLcs.s: MatrixLcs.c.s
@@ -220,7 +220,7 @@ MatrixLcs.s: MatrixLcs.c.s
 
 # target to generate assembly for a file
 MatrixLcs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/MatrixLcs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/MatrixLcs.c.s
 .PHONY : MatrixLcs.c.s
 
 main.o: main.c.o
@@ -229,7 +229,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -238,7 +238,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -247,7 +247,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlessandroTesta105380.dir/build.make CMakeFiles/AlessandroTesta105380.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extractlcs.dir/build.make CMakeFiles/extractlcs.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -258,7 +258,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... AlessandroTesta105380"
+	@echo "... extractlcs"
 	@echo "... FileIO.o"
 	@echo "... FileIO.i"
 	@echo "... FileIO.s"

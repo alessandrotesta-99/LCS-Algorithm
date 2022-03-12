@@ -1,6 +1,3 @@
-//
-// Created by alessandro on 02/02/2022.
-//
 
 #ifndef ALESSANDROTESTA105380_MATRIXLCS_H
 #define ALESSANDROTESTA105380_MATRIXLCS_H

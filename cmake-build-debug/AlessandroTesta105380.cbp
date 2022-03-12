@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,26 +27,18 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="AlessandroTesta105380">
-				<Option output="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/AlessandroTesta105380.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlessandroTesta105380"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="AlessandroTesta105380/fast">
-				<Option output="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/AlessandroTesta105380.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="extractlcs">
+				<Option output="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/extractlcs.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -67,7 +49,25 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlessandroTesta105380/fast"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 extractlcs"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extractlcs/fast">
+				<Option output="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/extractlcs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 extractlcs/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -75,25 +75,25 @@
 			</Target>
 		</Build>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/FileIO.c">
-			<Option target="AlessandroTesta105380"/>
+			<Option target="extractlcs"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/FileIO.h">
-			<Option target="AlessandroTesta105380"/>
+			<Option target="extractlcs"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/LCSAlgorithm.c">
-			<Option target="AlessandroTesta105380"/>
+			<Option target="extractlcs"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/LCSAlgorithm.h">
-			<Option target="AlessandroTesta105380"/>
+			<Option target="extractlcs"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/MatrixLcs.c">
-			<Option target="AlessandroTesta105380"/>
+			<Option target="extractlcs"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/MatrixLcs.h">
-			<Option target="AlessandroTesta105380"/>
+			<Option target="extractlcs"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/main.c">
-			<Option target="AlessandroTesta105380"/>
+			<Option target="extractlcs"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/alessandro/Documents/WORKSPACE/CLionProjects-workspace/AlessandroTesta105380/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
